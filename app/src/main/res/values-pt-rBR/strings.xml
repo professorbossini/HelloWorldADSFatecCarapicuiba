@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Olá Mundo ADS Fatec Carapicuiba</string>
+    <string name="welcome">Bem-vindo ao desenvolvimento de aplicações Android</string>
+    <string name="deitel_logo">Duplo joinha do inseto do Deitel</string>
+</resources>

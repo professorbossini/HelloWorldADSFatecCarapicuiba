@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/helloWorldLinearLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.bossini.helloworldadsfateccarapicuiba.MainActivity">
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/helloWorldTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="@string/welcome"
+        android:textColor="@color/welcome_text_color"
+        android:textSize="@dimen/welcome_textsize" />
+
+    <ImageView
+        android:id="@+id/bugImageView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/deitel_logo"
+        app:srcCompat="@drawable/bug" />
+
+</LinearLayout>

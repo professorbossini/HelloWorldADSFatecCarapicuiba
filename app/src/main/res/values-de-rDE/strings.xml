@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hello World ADS Fatec Carapicuiba</string>
+    <string name="welcome">Willkommen bei der Entwicklung von Android-Apps</string>
+    <string name="deitel_logo">Deitels Wanze hat einen doppelten Daumen hoch</string>
+</resources>
